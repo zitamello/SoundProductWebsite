@@ -25,6 +25,7 @@
   color: white;
   font-weight: bolder;
   margin-top: 0.3rem;
+  cursor: default;
 }
 
 .nav-div {
@@ -58,10 +59,27 @@ li a {
   font-size: 15px;
 }
 
-li a:active, a::after, a:hover {
-  color:gray;
+li a:active, a::after {
+  color:  gainsboro;
+}
+
+li a:hover {
+  color:  darkseagreen;
 }
 
 li a:visited {
-  color: gray;
+  color: azure;
 }
+
+hr {
+  width: 100%;
+}
+
+.main-title {
+  background-color: wheat;
+  position: absolute;
+  margin-top: 8.6em;
+}
+
+
+
