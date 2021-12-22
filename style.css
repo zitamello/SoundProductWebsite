@@ -76,7 +76,7 @@ hr {
 }
 
 .main-title {
-  background-color: black;
+  background-color: transparent;
   position: absolute;
   margin-top: 9.5em;
   width: 320px;
@@ -121,6 +121,31 @@ hr {
 }
 
 #btn-product {
-  background-color: orange;
+  background-color:   sandybrown;
   color: white;
+}
+
+.div-img {
+  height: 360px;
+  width: 490px;
+  position: absolute;
+  margin-top: 7.1em;
+  margin-left: 25.5em;
+}
+
+.img-headphones{
+  height: 100%;
+  width: 100%;
+}
+
+.div-slogan {
+  float: right;
+  margin-right: 10em;
+  margin-top: 14.1em;
+}
+
+h3 {
+  color: white;
+  font-size: 16px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
