@@ -113,3 +113,14 @@ hr {
   font-size: 14px;
   color:whitesmoke;
 }
+
+.div-btn {
+  position: absolute;
+  margin-top: 25.5em;
+  margin-left: 4.5rem;
+}
+
+#btn-product {
+  background-color: orange;
+  color: white;
+}
