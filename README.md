@@ -9,3 +9,7 @@ With this project I started using Git commands more and understanding git struct
 </p>
 
 
+
+<p align="center">
+  <img src="images/banner2.png" >
+</p>
