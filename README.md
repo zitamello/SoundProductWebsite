@@ -8,8 +8,12 @@ With this project I started using Git commands more and understanding git struct
   <img src="images/banner.png" >
 </p>
 
-
-
 <p align="center">
   <img src="images/banner2.png" >
+</p>
+<p align="center">
+  <img src="images/banner3.png" >
+</p>
+<p align="center">
+  <img src="images/banner4.png" >
 </p>
