@@ -5,7 +5,7 @@ Interface Design Website. In this project I used simple CSS and Javascript funct
 With this project I started using Git commands more and understanding git structures and environments and it was my main topic of studies. 
 
 <p align="center">
-  <img src="banner.png" >
+  <img src="images/banner.png" >
 </p>
 
 
