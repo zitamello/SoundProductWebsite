@@ -512,3 +512,10 @@ p {
   float: right;
   margin-top: 4.3rem;
 }
+
+.p-copyright {
+  position: absolute;
+  color: lightslategray;
+  margin-top: 10.5rem;
+  margin-left: 5.5rem;
+}
