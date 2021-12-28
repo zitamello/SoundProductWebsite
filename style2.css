@@ -348,3 +348,29 @@ a:visited {
   margin-top: 2.1rem;
   
 }
+
+.div-content-product {
+  background-color: transparent;
+  width: 490px;
+  height: 260px;
+  margin-top: -16rem;
+  margin-left: 42.5rem;
+}
+
+
+.title-content {
+  color: black;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+span {
+  color: red;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+
