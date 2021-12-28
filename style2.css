@@ -325,3 +325,26 @@ a:visited {
   filter: blur(1px);
   opacity: 0.7;
 }
+
+.div-features {
+  background-color: transparent;
+  width: 490px;
+  height: 260px;
+  margin-top: 2.1rem;
+  margin-left: 5.5rem;
+}
+
+.title-features {
+  color: black;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.p-features {
+  color: gray;
+  font-size: 14px;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  margin-top: 2.1rem;
+  
+}
