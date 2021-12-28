@@ -168,4 +168,70 @@ a:visited {
   font-size: 23px;
   font-weight: bold;
   color: black;
+  cursor: default;
+}
+
+.button-minus-div {
+  position: absolute;
+  margin-left: 38.5em;
+  margin-top: 31.5rem;
+}
+
+
+#button-minus {
+  width: 60px;
+  height: 40px;
+  font-size: 25px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background-color: sandybrown;
+}
+
+.qt-itens-div {
+  position: absolute;
+  margin-left: 42.5rem;
+  margin-top: 31.5em;
+}
+
+#qt-itens {
+  height: 40px;
+  width: 60px;
+  cursor: default;
+  background-color: gray;
+  color: white;
+}
+
+.button-plus-div {
+  position: absolute;
+  margin-left: 46.5rem;
+  margin-top: 31.5rem;
+}
+
+#button-plus {
+  width: 60px;
+  height: 40px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background-color: sandybrown;
+
+}
+
+.add-cart-div {
+  position: absolute;
+  margin-left: 51.5rem;
+  margin-top: 31.5rem;
+}
+
+#add-cart {
+  width: 180px;
+  height: 40px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color:  sandybrown;
+}
+
+#add-cart:hover {
+  background-color:  chocolate;
 }
