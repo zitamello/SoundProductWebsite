@@ -190,7 +190,7 @@ a:visited {
 .qt-itens-div {
   position: absolute;
   margin-left: 42.5rem;
-  margin-top: 31.5em;
+  margin-top: 30.5em;
 }
 
 #qt-itens {
@@ -373,4 +373,83 @@ span {
   margin-top: 1rem;
 }
 
+.p-content {
+  margin-top: 1.5rem;
+}
 
+.div-recommend-title {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 2rem;
+  height: 30px;
+}
+
+.h6-recommend {
+  font-size: 18px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.div-recommended {
+  background-color: transparent;
+  height: 340px;
+  cursor: default;
+  margin-top: 1.5rem;
+}
+
+.div-product1 {
+  background-color: transparent;
+  width: 340px;
+  height: 340px;
+  margin-left: 5.5rem;
+}
+
+
+.div-img-pro1 {
+  background-color: gray;
+  width: 182px;
+  height:182px;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 4.5rem;
+  cursor: pointer;
+}
+
+#img-pro-01 {
+  width: 95%;
+  height: 95%;
+  border-radius: 5px;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem;
+  cursor: pointer;
+  transition: 0.2s;
+  border-color: gray;
+}
+
+.img03:hover {
+  filter: blur(1px);
+  opacity: 0.7;
+}
+
+.h5-pro1 {
+  position: absolute;
+  margin-left: 6.5rem;
+  margin-top: 14.5rem;
+  font-size: 17px;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+#btn-pro1 {
+  position: absolute;
+  margin-left: 6.5rem;
+  margin-top: 16.5rem;
+  color: sandybrown;
+  outline-color: sandybrown;
+}
+
+#btn-pro1:hover {
+  background-color: sandybrown;
+  color: white;
+}
