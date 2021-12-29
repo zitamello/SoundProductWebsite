@@ -1,6 +1,6 @@
 #main-page {
   background-color: ghostwhite;
-  height: 2300px;
+  height: 2360px;
   width: 1350px;
 }
 
@@ -733,4 +733,46 @@ span {
 
 .span-2nd {
   color:  orange;
+}
+
+
+.div-footer {
+  background-color: black;
+  width: 100%;
+  height: 220px;
+  margin-top: 6.5rem;
+}
+
+.audiophile2 {
+  font-family:  Roboto, sans-serif;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  font-weight: bolder;
+  margin-top: 4.3rem;
+  cursor: default;
+  margin-left: 5.5rem;
+}
+
+.paragraph-exp2 {
+  font-size: 11px;
+  color: lightswlategray;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 5.5rem;
+  margin-top: 6.5rem;
+  cursor: default;
+}
+
+#footer-nav {
+  float: right;
+  margin-top: 4.3rem;
+  margin-right: 2.2rem;
+}
+
+.p-copyright {
+  position: absolute;
+  color: lightslategray;
+  margin-top: 10.5rem;
+  margin-left: 5.5rem;
 }
