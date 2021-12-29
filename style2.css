@@ -189,8 +189,8 @@ a:visited {
 
 .qt-itens-div {
   position: absolute;
-  margin-left: 42.5rem;
-  margin-top: 30.5em;
+  margin-left: 42.3rem;
+  margin-top: 31.7rem;
 }
 
 #qt-itens {
@@ -572,4 +572,165 @@ span {
 #btn-pro3:hover {
   background-color: sandybrown;
   color: white;
+}
+
+
+.div-categories {
+  background-color: transparent;
+  height: 130px;
+  width: 100%;
+}
+
+.div-headphones {
+  background-color:  gainsboro;
+  width: 210px;
+  height: 130px;
+  margin-top: 8.5em;
+  margin-left: 16.5em;
+}
+
+.img2-headphones {
+  height: 60px;
+  width: 60px;
+  margin-top: -1.5rem;
+  margin-left: 4.5rem;
+}
+
+.p-headphones {
+  font-size: 16px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-style:  unset;
+  position: absolute;
+  margin-top: 0.8rem;
+  margin-left: 3.5rem;
+  cursor: default;
+}
+
+#button-shop {
+  color: gray;
+  font-size: 10px;
+  margin-top: 2.5rem;
+  margin-left: 4.5rem;
+  background-color: transparent;
+  font-weight: bold;
+  border-color: white;
+}
+
+span {
+  color: red;
+  margin-top: -0.2rem;
+  margin-left: 0.2rem;
+}
+
+.div-speakers {
+  background-color: gainsboro;
+  width: 210px;
+  height: 130px;
+  position: absolute;
+  margin-top: -8.1rem;
+  margin-left: 36.5rem;
+}
+
+.img2-speakers {
+  height: 60px;
+  width: 60px;
+  margin-top: -1.5rem;
+  margin-left: 4.5rem;
+}
+
+.p-speakers {
+  font-size: 16px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-style:  unset;
+  position: absolute;
+  margin-top: 0.8rem;
+  margin-left: 4.5rem;
+}
+
+#button-shop2 {
+  color: gray;
+  font-size: 10px;
+  margin-top: 2.5rem;
+  margin-left: 4.5rem;
+  background-color: transparent;
+  font-weight: bold;
+  border-color: white;
+}
+
+.div-earphones {
+  background-color: gainsboro;
+  width: 210px;
+  height: 130px;
+  position: absolute;
+  margin-top: -8.1rem;
+  margin-left: 56.5rem;
+}
+
+.p-earphones {
+  font-size: 16px;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-style:  unset;
+  position: absolute;
+  margin-top: 0.8rem;
+  margin-left: 3.8rem;
+}
+
+
+.div-6th-container {
+  background-color: black;
+  width: 850px;
+  height: 320px;
+  margin-left: 16.5rem;
+  margin-top: 4.5rem;
+}
+
+.div-slogan2 {
+  background-color: white;
+  width: 425px;
+  height: 320px;
+
+}
+
+.div-img-6th {
+  background-color: transparent;
+  width: 425px;
+  height: 320px;
+  position: absolute;
+  margin-top: 0;
+  float: right;
+}
+
+.img-6th {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-left: 26.55rem;
+  margin-top: -20rem;
+
+}
+
+.h3-audio {
+  font-size: 15px;
+  font-family:   'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  position: absolute;
+  font-weight: bold;
+  margin-top: 5.5rem;
+  margin-left: 3.5rem;
+}
+
+.paragraph-exp {
+  font-size: 11px;
+  color: lightslategray;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 3.5rem;
+  margin-top: 8.5rem;
+}
+
+.span-2nd {
+  color:  orange;
 }
