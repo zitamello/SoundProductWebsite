@@ -1,14 +1,6 @@
 
 
-var price2999 = document.getElementById("price2999");
-
-price2999.style.display = 'none';
-
 var price950 = document.getElementById("price950");
-
-var price450 = document.getElementById("price450");
-
-price450.style.display = 'none';
 
 function subsImg(imgs) {
   var expandImg = document.getElementById("imgmain");
@@ -16,3 +8,23 @@ function subsImg(imgs) {
   expandImg.parentElement.style.display = "block";
 }
 
+var qt = 1;
+var nItems = document.getElementById("qt-itens");
+var sqt = 1;
+
+function addFunction() {
+  qt = qt + 1;
+  sqt = qt.toString();
+  nItems.innerHTML = sqt;
+}
+
+function minusFunction() {
+  if (qt == 0){
+    document.getElementById('qt-itens').innerHTML = '0';
+  }
+  else {
+    qt = qt - 1;
+  }
+  var mqt = qt.toString();
+  document.getElementById('qt-itens').innerHTML = mqt;
+}
