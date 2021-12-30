@@ -1,6 +1,6 @@
 
 
-var price950 = document.getElementById("price950");
+var price2999 = document.getElementById("price2999");
 
 function subsImg(imgs) {
   var expandImg = document.getElementById("imgmain");
