@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style3.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+    <div id="main-page">
+      <div class="head-div">
+        <div class="title-div">
+          <h6 class="audiophile">audiophile</h6>
+          <hr>
+        </div>
+        <div class="nav-div">
+          <nav id="nav">
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="#">Headphones</a></li>
+              <li><a href="#">Speakers</a></li>
+              <li><a href="#">Earphones</a></li>
+            </ul>
+            <hr>
+          </nav>
+        </div>
+      </div>
+      <div class="div-btn">
+        <a href="index.html"><button id="back-btn" class="button is-warning">Go Back </btn> </a>
+      </div>
+      <div class="div-img">
+        <img src="images/speakersHome.jpg" id="imgmain" class="img-speakers">
+      </div>
+      <div class="main-title">
+        <h6 class="new-headline"> New Product </h6>
+        <h1 class="new-product-title"> ZX9 SPEAKER</h1>
+        <h1 class="headphones"> HOME THEATER </h1>
+        <p class="paragraph"> Experience natural, lifelike audio and exceptional build quality made for the true passionate music enthusiast.
+      </div>
+      <div class="div-price-tag">
+        <p id="price2999" class="p-price"> $ 2,999 </p>
+      </div>
+      <div class="button-minus-div">
+        <button id="button-minus" class="button is-warning" onclick="minusFunction()">-</button>
+      </div>
+      <div class="qt-itens-div">
+        <span id="qt-itens" class="tag is-warning is-light">1</span>
+      </div>
+      <div class="button-plus-div">
+        <button id="button-plus" class="button is-warning" onclick="addFunction()">+</button>
+      </div>
+      <div class="add-cart-div">
+        <button id="add-cart" class="button is-warning is-hovered" onclick="alertFunction()">ADD TO CART </button>
+      </div>
+      <div class="imgs-container-div">
+        <div id="first-img" class="mySlides">
+            <img src="images/speakersHome.jpg" id="img1" class="img01" onclick="subsImg(this);">
+        </div>
+        <div id="sec-img" class="mySlides">
+            <img src="images/productHT.jpg" id="img2" class="img02" onclick="subsImg(this);">
+        </div>
+        <div id="third-img" class="mySlides">
+            <img src="images/imagesHT.jfif" id="img3" class="img03" onclick="subsImg(this);">
+        </div>
+      </div>
+      <div class="div-features">
+        <h5 class="title-features">FEATURES</h5>
+        <p class="p-features"> Morbi purus sem, rutrum ac ullamcorper eget, mollis a leo. Pellentesque ac dapibus justo. Maecenas iaculis est neque, porttitor mattis dolor dignissim sed. <br> 
+        <br> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae lectus vel eros feugiat bibendum quis id ligula. Curabitur posuere risus sem, at maximus libero condimentum eu. Duis egestas lectus ut iaculis porttitor.</p>
+      </div>
+      <div class="div-content-product">
+        <h5 class="title-content">IN THE BOX </h5>
+        <p class="p-content"> <span>2x </span> Medium speakers units</p>
+        <p> <span> 1x </span> User Manual </p>
+        <p> <span>2x </span> Tall Speakers units</p>
+        <p> <span>1x </span> Travel Case </p>
+        <p> <span>2x </span> Audio Adaptor Cable </p>
+      </div>
+      <div class="div-recommend-title">
+        <h6 class="h6-recommend"> YOU MAY ALSO LIKE </h6>
+      </div>
+      <div class="div-recommended">
+        <div class="div-product1">
+          <div class="div-img-pro1">
+           <img src="images/speakersaudio.jpg" id="img-pro-01"> 
+          </div>
+          <h5 class="h5-pro1"> AUDIO THEATER </h5>
+          <button id="btn-pro1" class="button is-warning is-outlined">See Product </button>
+        </div>
+        <div class="div-product2">
+          <div class="div-img-pro2">
+           <img src="images/productHT.jpg" id="img-pro-02"> 
+          </div>
+          <h5 class="h5-pro2"> SONY CINEMA </h5>
+          <button id="btn-pro2" class="button is-warning is-outlined">See Product </button>
+        </div>
+        <div class="div-product3">
+          <div class="div-img-pro3">
+           <img src="images/smart-speaker.jpg" id="img-pro-03"> 
+          </div>
+          <h5 class="h5-pro3"> XIAOMI SPEAKERS </h5>
+          <button id="btn-pro3" class="button is-warning is-outlined">See Product </button>
+        </div>
+      </div>
+      <div class="div-categories">
+        <div class="div-headphones">
+          <img src="images/headphonesIcon2.png" class="img2-headphones">
+          <p class="p-headphones">HEADPHONES</p>
+          <button id="button-shop" class="button is-danger is-inverted is-small">SHOP   <span> > </span></button>
+        </div>
+        <div class="div-speakers">
+          <img src="images/speaker.png" class="img2-speakers">
+          <p class="p-speakers">SPEAKERS</p>
+          <button id="button-shop2" class="button is-danger is-inverted is-small">SHOP   <span> > </span></button>
+        </div>
+        <div class="div-earphones">
+          <img src="images/airpods.png" class="img2-headphones">
+          <p class="p-earphones">EARPHONES</p>
+          <button id="button-shop2" class="button is-danger is-inverted is-small">SHOP   <span> > </span></button>
+        </div>
+      </div>
+      <div class="div-6th-container">
+        <div class="div-slogan2">
+          <h3 class="h3-audio"> BRINGING THE <span class="span-2nd"> BEST </span> AUDIO. ALWAYS. </h3>
+          <p class="paragraph-exp">
+            Maecenas sed eros placerat, rhoncus tortor et, efficitur mi. <br> Nullam vestibulum ultrices nisl in scelerisque. <br> Nam varius ligula sed sapien viverra, a efficitur tellus posuere. <br> Maecenas cursus bibendum nibh, et feugiat est. <br> In libero ante, pharetra ut quam et, congue viverra erat. <br> Pellentesque pellentesque lacinia nisl eget condimentum. <br> Fusce ut porttitor metus, eu lacinia tellus.</p>
+        </div>
+        <div class="div-img-6th">
+          <img src="images/image1.jpg" class="img-6th">
+        </div>
+      </div>
+      <div class="div-footer">
+        <h6 class="audiophile2">audiophile</h6>
+        <p class="paragraph-exp2"> Aenean accumsan, nibh et viverra lobortis nec sollicitudin arcu nibh a dui. <br> Proin posuere volutpat diam nec elementum. <br> Nullam sollicitudin, enim ut sagittis tempus, non sodales turpis sem sed erat.<p>
+        <nav id="footer-nav">
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Earphones</a></li>
+          </ul>
+        </nav>
+        <p class="p-copyright"> Copyrighted. All Rights Reserved. </p>
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
