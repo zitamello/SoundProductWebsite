@@ -10,7 +10,7 @@ function subsImg(imgs) {
 
 var qt = 1;
 var nItems = document.getElementById("qt-itens");
-var sqt = 1;
+
 
 function addFunction() {
   qt = qt + 1;
