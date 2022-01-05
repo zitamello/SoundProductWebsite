@@ -1,0 +1,263 @@
+#main-page {
+  background-color: ghostwhite;
+  height: 1360px;
+  width: 1350px;
+}
+
+
+.head-div {
+  background-color: black;
+  width: 100%;
+  height: 120px;
+}
+
+.title-div{
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  margin-left: 5em;
+  margin-top: 1.5em;
+}
+
+.audiophile {
+  text-align: center;
+  font-family:  Roboto, sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 0.3rem;
+  cursor: default;
+}
+
+.nav-div {
+  position: absolute;
+  width: 380px;
+  height: 40px;
+  margin-left: 25.5em;
+  margin-top: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white(0, 0, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  margin-top: -0.7rem;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+li a:active, a::after {
+  color:  gainsboro;
+}
+
+li a:hover {
+  color:  darkseagreen;
+}
+
+li a:visited {
+  color: azure;
+}
+
+hr {
+  width: 100%;
+}
+
+.div-btn {
+  position: absolute;
+  margin-left: 5.5rem;
+  margin-top: 5.5rem;
+}
+
+#back-btn {
+  background-color: sandybrown;
+  color: white;
+}
+
+a:active, a::after {
+  color:  white;
+}
+
+a:visited {
+  color: white;
+}
+
+
+.checkout-box {
+  margin-top:  9.5rem;
+}
+
+#idbox {
+  width: 50%;
+  margin-left: 5.5rem;
+}
+
+.div-footer {
+  background-color: black;
+  width: 100%;
+  height: 220px;
+  margin-top: 6.5rem;
+}
+
+.audiophile2 {
+  font-family:  Roboto, sans-serif;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  font-weight: bolder;
+  margin-top: 4.3rem;
+  cursor: default;
+  margin-left: 5.5rem;
+}
+
+.paragraph-exp2 {
+  font-size: 11px;
+  color: lightswlategray;
+  font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 5.5rem;
+  margin-top: 6.5rem;
+  cursor: default;
+}
+
+#footer-nav {
+  float: right;
+  margin-top: 4.3rem;
+  margin-right: 2.2rem;
+}
+
+.p-copyright {
+  position: absolute;
+  color: lightslategray;
+  margin-top: 10.5rem;
+  margin-left: 5.5rem;
+}
+
+
+.label-checkout {
+  color: chocolate;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.label-payment {
+  color: chocolate;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart-div {
+  width: 28%;
+  height: 32%;
+  background-color: white;
+  box-shadow: 5px 8px;
+  border-radius: 8px;
+  float: right; 
+  margin-right: 9.5rem;
+  margin-top: -60.5rem;
+
+}
+
+.h5-summary {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 2rem;
+  cursor: default;
+  margin-top: 1.5rem;
+}
+
+.first-prod {
+  margin-top: 2rem;
+  margin-left:2rem;
+  height: 60px;
+  width: 60px;
+  background-color: gray;
+}
+
+.label-first-prod {
+  position: absolute;
+  margin-left: 8.2rem;
+  margin-top: -3.2rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.x1 {
+  margin-left: 5.5rem;
+  color: sandybrown;
+  
+}
+
+
+.total-div {
+  height: 120px;
+  width: 300px;
+  margin-left: 2em;
+  margin-top: 4.5rem;
+}
+
+.lbl-total {
+  font-weight:  inherit;
+  color: grey;
+}
+
+.lbl-price {
+  font-weight: bold;
+  float: right;
+}
+
+.shipping-cost {
+  font-weight: inherit;
+  color: gray;
+}
+
+.lbl-shipping-price {
+  font-weight: bold;
+  float: right;
+}
+
+.grand-total {
+  font-weight: inherit;
+  color: gray;
+}
+
+.lbl-grand-total-price {
+  font-weight: bold;
+  float: right;
+  color: sandybrown;
+}
+
+.button-div {
+  margin-top: 2.4rem;
+  margin-left: 6.2rem;
+}
+
+#btn-pay {
+  background-color: sandybrown;
+  color: white; 
+}
+
+#btn-loading {
+  background-color: chocolate;
+  margin-top: -2.5rem;
+}
+
+#note-div {
+  margin-top: 2.1rem;
+  border-radius: 5px;
+  background-color: sandybrown;
+  color: white;
+}

@@ -37,3 +37,21 @@ function minusFunction() {
   var mqt = qt.toString();
   document.getElementById('qt-itens').innerHTML = mqt;
 }
+
+var btnLoading = document.getElementById("btn-loading");
+
+btnLoading.style.display = "none";
+
+var notification = document.getElementById("note-div");
+
+notification.style.display = "none";
+
+function loading() {
+  btnLoading.style.display = "block";
+  setTimeout(message, 1000);
+}
+
+function message(){
+  btnLoading.style.display = "none";
+  notification.style.display = "block";
+}

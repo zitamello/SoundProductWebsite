@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style4.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+    <div id="main-page">
+      <div class="head-div">
+        <div class="title-div">
+          <h6 class="audiophile">audiophile</h6>
+          <hr>
+        </div>
+        <div class="nav-div">
+          <nav id="nav">
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="#">Headphones</a></li>
+              <li><a href="#">Speakers</a></li>
+              <li><a href="#">Earphones</a></li>
+            </ul>
+            <hr>
+          </nav>
+        </div>
+      </div>
+      <div class="div-btn">
+        <a href="homeproduct.html"><button id="back-btn" class="button is-warning">Go Back </btn> </a>
+      </div>
+      <div class="checkout-box">
+        <form id="idbox" class="box">
+          <div class="field">
+            <label class="label-checkout"> CHECKOUT </label>
+            <br>
+            <br>
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label"> Last Name </label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="user@email.com">
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="field">
+            <label class="label">Adress</label>
+            <div class="control">
+              <input class="input" type="Name" placeholder="Adress">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">ZIP Code</label>
+            <div class="control">
+              <input class="input" type="Number" placeholder="Credi Card Number">
+            </div>
+          </div>
+           <div class="field">
+            <label class="label">City</label>
+            <div class="control">
+              <input class="input" type="Name" placeholder="City">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Country</label>
+            <div class="control">
+              <input class="input" type="Name" placeholder="Country">
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="field">
+            <label class="label-payment"> Payment Details </label>
+            <br>
+            <br>
+            <label class="label">Payment Method</label>
+          </div>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="answer"> Pay-Pal
+            </label>
+            <label class="radio">
+              <input type="radio" name="answer"> Credit Card 
+             </label>
+          </div>
+          <br>
+          <div class="field">
+            <label class="label">Credit Card Number </label>
+            <div class="control">
+              <input class="input" type="Number" placeholder="Security Number">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="cart-div">
+        <h5 class="h5-summary"> Summary </h5>
+        <div class="first-prod">
+          <img src="images/headphonesIcon2.png">
+        </div>
+        <div> 
+          <label class="label-first-prod">XX99 MK II <span class="x1">x1 </span></label>
+        </div>
+        <div class="total-div">
+          <label class="lbl-total"> TOTAL </label>
+          <label class="lbl-price"> $ 499,00 </label>
+          <br>
+          <label class="shipping-cost">SHIPPING COST </label>
+          <label class="lbl-shipping-price"> $ 50 </label>
+          <br>
+          <br>
+          <label class="grand-total"> Grand Total </label>
+          <label class="lbl-grand-total-price"> $ 549,00 </label>
+        </div>
+        <div class="button-div">
+          <button id="btn-pay" class="button is-primary" onclick="loading()"> Continue & Pay </button>
+          <button id="btn-loading" class="button is-loading">Continue & Pay</button>
+        </div>
+        <div id="note-div" class="notification">
+          <p> Congrats, your item has been purchased! </p>
+        </div>
+      </div>
+      <div class="div-footer">
+        <h6 class="audiophile2">audiophile</h6>
+        <p class="paragraph-exp2"> Aenean accumsan, nibh et viverra lobortis nec sollicitudin arcu nibh a dui. <br> Proin posuere volutpat diam nec elementum. <br> Nullam sollicitudin, enim ut sagittis tempus, non sodales turpis sem sed erat.<p>
+        <nav id="footer-nav">
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#">Headphones</a></li>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Earphones</a></li>
+          </ul>
+        </nav>
+        <p class="p-copyright"> Copyrighted. All Rights Reserved. </p>
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
